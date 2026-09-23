@@ -1,0 +1,23 @@
+# Compiled binaries
+analyzer
+analyzer.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated PDFs and documents
+*.pdf
+*.docx
+
+# PDF generation scripts (non-core utilities)
+generate_*.py
+create_pdf.py
+
+# Runtime user data
+data/users/
+data/history.csv
+data/input.txt
+data/output.txt
+data/sos_draft.txt
+.DS_Store
