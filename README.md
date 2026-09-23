@@ -204,26 +204,6 @@ The app would advise her to "Move to a well-lit, populated area" and generate an
 - Dark mode UI theme
 - Multi-language support
 
----
-
-## For Your Presentation
-
-**Key Points to Mention:**
-1. **Problem** – Personal safety is critical, especially for students walking alone at night
-2. **Solution** – Quick check-in app that assesses risk and connects to trusted contacts
-3. **Technology** – Hybrid Python+Tkinter (frontend) + C (fast risk calculation)
-4. **Security** – Password hashing, local storage, privacy-first design
-5. **Practical Value** – Automatic SOS draft, timer check-in, history tracking
-
-**Demo Script:**
-1. Show login → signup screen
-2. Create account → fill in 3 trusted contacts
-3. Login → answer safety questions
-4. Set confidence → set timer → click Analyze
-5. Show risk result + advice
-6. View SOS draft → show how email would work
-
----
 
 ## Technical Quick Reference
 
@@ -234,8 +214,6 @@ The app would advise her to "Move to a well-lit, populated area" and generate an
 | **Total** | **1,972** | **Python + C** | **Desktop Application** |
 
 ---
-
-## How Libraries Are Used
 
 ### Python's Role (app.py)
 
@@ -266,8 +244,6 @@ The C program is fast because it's "closer to the metal" – it runs as raw mach
 
 ---
 
-## Why This Approach?
-
 ### Python for Interface
 - ✅ Easy to write and understand
 - ✅ Built-in GUI tools (Tkinter)
@@ -292,22 +268,7 @@ It's not connected to any servers – everything stays on your laptop. It just r
 
 The "calculator" part (C program) is like having a mini-robot that only knows how to add up risk points. The "window" part (Python app) is like a friendly translator that asks you questions and shows the robot's answers in plain English.
 
-**In your presentation, say:**
-> "We built a safety check-in app. The front end uses Python with Tkinter for the interface, and we wrote a custom risk analysis engine in C for fast calculations. When users input their situation, the C program calculates a weighted risk score and provides specific safety advice. It runs locally for privacy, uses password hashing for security, and can send SOS emails to trusted contacts."
 
----
-
-## Contact & Credits
-
-**Project:** ShieldHer - Safety Check-in Application  
-**Type:** Minor Project  
-**Language:** Python 3 + C  
-**GUI Framework:** Tkinter  
-**License:** Open Source  
-
----
-
-*This document is intended as a project overview for presentations and non-technical audiences.*
 ## Project Contribution
 
 This was developed as a collaborative academic project. My primary responsibility was the C-based risk-analysis engine, including risk scoring, timer and confidence adjustments, risk classification, trend analysis, advice generation, and SOS generation. I also contributed to integration, debugging, and other application functionality as needed.
